@@ -1,12 +1,10 @@
-# CloudFail
+# CF-Ghost
 
-CloudFail is a tactical reconnaissance tool which aims to gather enough information about a target protected by Cloudflare in the hopes of discovering the location of the server. Using Tor to mask all requests, the tool as of right now has 3 different attack phases.
+CF-Ghost is a tactical reconnaissance tool which aims to gather enough information about a target protected by Cloudflare in the hopes of discovering the location of the server. Using Tor to mask all requests, the tool as of right now has 3 different attack phases.
 
 1. Misconfigured DNS scan using DNSDumpster.com.
 2. Scan the Crimeflare.com database.
 3. Bruteforce scan over 2500 subdomains.
-
-![Example usage](https://imgur.com/a/UKSkdfz "Example usage")
 
 > Please feel free to contribute to this project. If you have an idea or improvement issue a pull request!
 
@@ -34,7 +32,7 @@ If this fails because of missing setuptools, do this:
 
 To run a scan against a target:
 
-```python3 cloudfail.py --target seo.com```
+```python3 cfghost.py --target seo.com```
 
 To run a scan against a target using Tor:
 
@@ -42,7 +40,7 @@ To run a scan against a target using Tor:
 
 (or if you are using Windows or Mac install vidalia or just run the Tor browser)
 
-```python3 cloudfail.py --target seo.com --tor```
+```python3 CF-Ghost.py --target seo.com --tor```
 
 > Please make sure you are running with Python3 and not Python2.*.
 
