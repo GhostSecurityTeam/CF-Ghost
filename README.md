@@ -40,7 +40,7 @@ To run a scan against a target using Tor:
 
 (or if you are using Windows or Mac install vidalia or just run the Tor browser)
 
-```python3 CF-Ghost.py --target seo.com --tor```
+```python3 cfghost.py --target seo.com --tor```
 
 > Please make sure you are running with Python3 and not Python2.*.
 
